@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tasks'
+    'tasks',
+    'rest_framework',
+    'corsheaders',
+    
 ]
 
 MIDDLEWARE = [
@@ -121,3 +124,4 @@ STATIC_URL = 'static/'
 
 #cors authoritation
 CORS_ALLOWED_ORIGINS = []
+
